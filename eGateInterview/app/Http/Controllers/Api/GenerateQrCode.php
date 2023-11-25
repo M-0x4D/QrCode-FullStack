@@ -65,7 +65,6 @@ class GenerateQrCode extends Controller
                 $qrcode->setSize(200);
 
 
-                echo "test";
                 // output is file
                 $imageName = $this->generateRandomString();
                 $image = $qrcode->create("BarCodes/$imageName.png");
