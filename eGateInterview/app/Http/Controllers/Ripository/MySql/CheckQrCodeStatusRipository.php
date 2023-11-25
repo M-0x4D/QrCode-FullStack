@@ -7,6 +7,7 @@ use Illuminate\Http\Response;
 
 class CheckQrCodeStatusRipository
 {
+
     static function __check($qrCode)
     {
         try {

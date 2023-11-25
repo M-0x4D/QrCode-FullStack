@@ -7,9 +7,13 @@ use App\Http\Controllers\Ripository\MySql\CheckQrCodeStatusRipository;
 use App\Http\Requests\Api\CheckRequest;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use League\CommonMark\Exception\IOException;
+use Nette\Utils\Callback;
 
 class CheckQrCodeStatus extends Controller
 {
+
+
     public function __invoke(CheckRequest $request)
     {
         try {
