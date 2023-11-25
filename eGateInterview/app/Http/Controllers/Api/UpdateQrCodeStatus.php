@@ -28,10 +28,4 @@ class UpdateQrCodeStatus extends Controller
             ]);
         }
     }
-
-
-    function testFunc()
-    {
-        return "test res";
-    }
 }
